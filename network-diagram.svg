@@ -1,0 +1,15 @@
+                    INTERNET
+                       |
+                 ASUS RT-AX89X
+                       |
+                 Home Network
+                 /     |      \
+                /      |       \
+         TrueNAS     Raspberry   Ubuntu
+          Server        Pi       Laptop
+             |           |          |
+       Hosted Apps    AdGuard     Admin and
+       and Storage    Home DNS    Development
+
+         Tailscale provides remote connectivity
+                between supported devices
