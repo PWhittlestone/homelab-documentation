@@ -84,3 +84,22 @@ I want to build a more reliable, maintainable network while developing the knowl
 I learn best by building real systems, investigating problems, and applying what I discover. My homelab provides an environment where I can experiment, make improvements, and gain practical experience with the technologies used in modern IT infrastructure.
 
 I plan to continue documenting my projects and expanding my networking knowledge through hands-on experimentation and structured learning.
+## Network Diagram
+
+```text
+                    INTERNET
+                       |
+                 ASUS RT-AX89X
+                       |
+                 Home Network
+                 /     |      \
+                /      |       \
+         TrueNAS     Raspberry   Ubuntu
+          Server        Pi       Laptop
+             |           |          |
+       Hosted Apps    AdGuard     Admin and
+       and Storage    Home DNS    Development
+
+         Tailscale provides remote connectivity
+                between supported devices
+```
